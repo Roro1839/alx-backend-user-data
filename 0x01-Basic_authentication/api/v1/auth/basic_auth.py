@@ -65,7 +65,7 @@ class BasicAuth(Auth):
             return None
         except Exception:
             return None
-    
+
     def current_user(self, request=None) -> TypeVar('User'):
         """_summary_
         """
